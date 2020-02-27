@@ -1,0 +1,30 @@
+
+<div class="contenedorGeneralSeccion1">
+
+    <div class="contenedorLibroPorId">
+
+        <div class="inputYBoton">
+            
+            <div>
+            <input type="text" class="valorInput" placeholder="Introduzca id de libro">
+            </div>
+            
+            <div>
+            <button class="btn btn-primary" (click)=traerDatos()>Buscar</button>
+            </div>
+
+        </div>
+
+        <div class="imagenLibro">
+        
+        <h3> ID Libro:  {{libro.idLibro}}</h3>
+        <h3> Nombre: {{libro.nombre}}</h3>
+        <h3> Autor: {{libro.autor}}</h3>
+            
+        <img src="{{libro.imagenLibro}}" width="300">
+        
+        </div>
+    
+    </div>
+  
+</div>

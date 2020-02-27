@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+/*importo el servicio que tiene el metodo obtener datos*/
+
+
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'primeraAplicacionConAngular';
+ 
+  
+
+ 
+
+
 }
+

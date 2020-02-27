@@ -1,0 +1,28 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.contenedorGeneralSeccion1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+.inputYBoton div{
+    margin-top: 1em;
+}
+
+.contenedorLibroPorId{
+    display: inline-block;
+   }
+
+h3{
+    margin-top: 1em;
+}
+
+img{
+    margin-top: 1em;
+}
+
