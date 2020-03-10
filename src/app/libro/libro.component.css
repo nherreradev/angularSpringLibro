@@ -4,9 +4,18 @@ h3{
 
 .contenedorGeneral{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .libro{
     margin: 2em;
     margin-left: 5em;
+    
+    max-width: 200px;
+}
+
+.libro h3{
+    font-size: 1em;
 }

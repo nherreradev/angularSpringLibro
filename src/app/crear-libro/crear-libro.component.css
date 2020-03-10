@@ -1,0 +1,17 @@
+.contenedorInputs{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorInputs div{
+    margin: 3em;
+    
+}
+
+#nombre{
+    width: 18em;
+}
+
+#autor{
+    width: 18em;
+}

@@ -6,6 +6,8 @@ import * as $ from 'jquery';
 
 
 
+
+
 @Injectable({
   providedIn: 'root'
 })
@@ -17,6 +19,48 @@ export class DatosService {
 
   constructor(private clienteHttp: HttpClient) {}
 
+    eliminarLibro(valorInput:string){
+      
+      return this.clienteHttp.delete('http://localhost:8080/libro/eliminar/' + valorInput);
+
+    }
+  
+    actualizarLibro(){
+
+    var valorInputNombre = $(".nombreLibroActualizar").val().toString();
+    var valorInputAutor = $(".nombreAutorActualizar").val().toString();
+    var valorIdActualizar = $(".idLibroActualizar").val().toString();
+
+     var datosAEnviar = {
+      nombre: valorInputNombre,
+      autor: valorInputAutor,
+      
+    }
+
+    return this.clienteHttp.patch('http://localhost:8080/libro/actualizar/' + valorIdActualizar, datosAEnviar);
+  }
+
+
+  asignarImagenALibro(idLibro: String){
+
+    return this.clienteHttp.post('http://localhost:8080/libro/imagen', idLibro );
+  }
+   
+
+  crearLibro(){
+
+    var valorInputNombre = $(".nombre").val().toString();
+    var valorInputAutor = $(".autor").val().toString();
+
+     var datosAEnviar = {
+      nombre: valorInputNombre,
+      autor: valorInputAutor
+    }
+
+    return this.clienteHttp.post('http://localhost:8080/crearLibro', datosAEnviar);
+  }
+
+
   obtenerDatosTodosLosLibros(){
     /* esto esta recibiendo un arreglo de publicaciones */
     return this.clienteHttp.get<post[]>('http://localhost:8080/libros');
@@ -27,7 +71,7 @@ export class DatosService {
   
   encontrarLibroPorId(valorInput:String){
     
-    return this.clienteHttp.get<post>('http://localhost:8080/buscarLibro/' + valorInput);
+    return this.clienteHttp.get<post>('http://localhost:8080/libros/' + valorInput);
  
   }
   

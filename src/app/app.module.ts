@@ -16,8 +16,15 @@ import { LibroComponent } from './libro/libro.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { PieComponent } from './pie/pie.component';
 import { IndexComponent } from './index/index.component';
-import { BuscarLibroPorIdComponent } from './buscar-libro-por-id/buscar-libro-por-id.component'
+import { BuscarLibroPorIdComponent } from './buscar-libro-por-id/buscar-libro-por-id.component';
+import { CrearLibroComponent } from './crear-libro/crear-libro.component';
 
+import { AsignarImagenLibroComponent } from './asignar-imagen-libro/asignar-imagen-libro.component'
+
+/* 1 */
+import { ReactiveFormsModule } from '@angular/forms';
+import { ActualizarLibroComponent } from './actualizar-libro/actualizar-libro.component';
+import { EliminarLibroComponent } from './eliminar-libro/eliminar-libro.component';
 
   
 
@@ -30,6 +37,10 @@ import { BuscarLibroPorIdComponent } from './buscar-libro-por-id/buscar-libro-po
     PieComponent,
     IndexComponent,
     BuscarLibroPorIdComponent,
+    CrearLibroComponent,
+    AsignarImagenLibroComponent,
+    ActualizarLibroComponent,
+    EliminarLibroComponent,
    
     
     
@@ -40,6 +51,7 @@ import { BuscarLibroPorIdComponent } from './buscar-libro-por-id/buscar-libro-po
     FormsModule,
     HttpClientModule,
     RouterModule,
+    ReactiveFormsModule
  
   ],
   providers: [DatosService],

@@ -1,0 +1,8 @@
+.contenedorCargarImagen{
+    display: flex;
+}
+
+
+.contenedorCargarImagen div{
+    margin: 3em;
+}

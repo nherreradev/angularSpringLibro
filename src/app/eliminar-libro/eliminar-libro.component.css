@@ -1,0 +1,8 @@
+.contenedorEliminarLibro{
+    margin: 3em;
+}
+
+.contenedorEliminarLibro input{
+    margin: 2em;
+    width: 15em;
+}
