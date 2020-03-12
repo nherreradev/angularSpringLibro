@@ -18,6 +18,9 @@ export class CrearLibroComponent implements OnInit {
 
 
     this.datosServicio.crearLibro().subscribe();
+
+    
+
   }
 
   ngOnInit(): void {

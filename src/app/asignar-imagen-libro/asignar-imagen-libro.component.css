@@ -1,8 +1,16 @@
-.contenedorCargarImagen{
+.container{
     display: flex;
+    margin-top: 5em;
+    justify-content: center;
 }
 
 
-.contenedorCargarImagen div{
-    margin: 3em;
+.container div{
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+
+.form-control{
+    width: 18em;
 }

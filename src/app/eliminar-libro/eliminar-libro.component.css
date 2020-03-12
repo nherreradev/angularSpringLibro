@@ -1,8 +1,22 @@
+
+.contenedorGeneralEliminarLibro{
+    display: flex;
+    justify-content: center;
+}
+
 .contenedorEliminarLibro{
-    margin: 3em;
+    display: inline-block;
+    
 }
 
 .contenedorEliminarLibro input{
-    margin: 2em;
+   
+    margin-top: 6em;
     width: 15em;
+}
+
+
+.contenedorEliminarLibro button{
+    margin-top: 3em;
+    
 }

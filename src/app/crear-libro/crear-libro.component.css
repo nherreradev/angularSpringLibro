@@ -1,6 +1,14 @@
-.contenedorInputs{
+
+.contenedorGeneralCrearLibro{
     display: flex;
     justify-content: center;
+    margin-top: 3em;
+}
+
+.contenedorInputs{
+    display: inline-block;
+    justify-content: center;
+    
 }
 
 .contenedorInputs div{
@@ -8,10 +16,10 @@
     
 }
 
-#nombre{
+.nombre{
     width: 18em;
 }
 
-#autor{
+.autor{
     width: 18em;
 }

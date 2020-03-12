@@ -1,7 +1,22 @@
+.contenedorGeneralActualizarLibro{
+    display: flex;
+    justify-content: center;
+}
+
+
 .contenedorActualizar{
-    margin: 4em;
+    display: inline-block;
+    
 }
 
 .contenedorActualizar input{
-    margin: 4em;
+   margin-top: 3em;
+   width: 18em;
 }
+
+
+.divBoton{
+    margin-top: 3em;
+    
+}
+

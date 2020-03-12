@@ -7,14 +7,28 @@
 </head>
 <body>
     
-<div class="contenedorActualizar">
+    <div class="contenedorGeneralActualizarLibro">
 
-    <input type="text" placeholder="Nombre Libro" class="nombreLibroActualizar">
-    <input type="text" placeholder="Autor" class="nombreAutorActualizar">
-    <input type="text" placeholder="idLibro" class="idLibroActualizar">
+        <div class="contenedorActualizar">
 
-    <button (click)="onUpdate()">Actualizar</button>
+            <div>
+                <input type="text" placeholder="Nombre Libro" class="nombreLibroActualizar">
+            </div>
+            <div>
+                <input type="text" placeholder="Autor" class="nombreAutorActualizar">
+            </div>
+            <div>
+                <input type="text" placeholder="idLibro" class="idLibroActualizar">
+            </div>
+            
+            
+            <div class="divBoton">
+            <button class="btn btn-primary" (click)="onUpdate()">Actualizar</button>
+            </div>
 
-</div>
+        </div>
+
+    </div>
+
 </body>
 </html>

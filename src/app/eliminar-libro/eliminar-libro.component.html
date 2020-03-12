@@ -6,11 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contenedorEliminarLibro">
 
-        <input type="text" class="valorInput" placeholder="ingrese id del libro a eliminar">
-        <button (click)="eliminarLibroComponente()">Eliminar</button>
+<div class="contenedorGeneralEliminarLibro">
+
+    <div class="contenedorEliminarLibro">
+        <div>
+            <input type="text" class="valorInput" placeholder="ingrese id del libro a eliminar">
+        </div>
+        <div>
+            <button class="btn btn-primary" (click)="eliminarLibroComponente()">Eliminar</button>
+        </div>
+        
+        
 
     </div>
+
+</div>
 </body>
 </html>
