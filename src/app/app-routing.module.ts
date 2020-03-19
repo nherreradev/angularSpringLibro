@@ -9,11 +9,11 @@ import { ActualizarLibroComponent } from './actualizar-libro/actualizar-libro.co
 import { EliminarLibroComponent } from './eliminar-libro/eliminar-libro.component';
 
 
-
+/*  ---- */
 
 
 const routes: Routes = [
-  
+
 
 {path: 'inicio', component: IndexComponent},  
 {path: 'libros', component: LibroComponent},
