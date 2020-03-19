@@ -13,6 +13,7 @@ import { EliminarLibroComponent } from './eliminar-libro/eliminar-libro.componen
 
 
 const routes: Routes = [
+  
 
 {path: 'inicio', component: IndexComponent},  
 {path: 'libros', component: LibroComponent},
